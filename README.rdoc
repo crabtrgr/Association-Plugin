@@ -1,0 +1,14 @@
+=FindAssociations
+
+
+This is a simple plug in to find association on an object.
+
+
+=Example
+
+  user = User.find(:first)
+  user.find_associations
+  => [:projects, :profile]
+
+
+Copyright (c) 2009 Gary R. Crabtree, released under the MIT license
