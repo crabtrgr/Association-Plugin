@@ -1,2 +1,2 @@
 require "find_associations"
-ActiveRecord::Base.include FindAssociations::InstanceMethods
+ActiveRecord::Base.send(:include, FindAssociations::InstanceMethods)

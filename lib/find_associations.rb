@@ -1,5 +1,5 @@
 module FindAssociations
-  class InstanceMethods
+  module InstanceMethods
     def find_associations
       self.class.reflect_on_all_associations.collect{|c| c.name}
     end
